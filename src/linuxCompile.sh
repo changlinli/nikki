@@ -11,6 +11,6 @@ make
 cd ../..
 
 cabal sandbox init
-cabal install --only-dependencies -j1 $@
+cabal install --only-dependencies $@
 cabal configure $@
 cabal build
