@@ -1,0 +1,4 @@
+
+script:
+  - cd src
+  - ./linuxCompile.sh
