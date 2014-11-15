@@ -4,6 +4,8 @@
 
 language: haskell
 
+install: true
+
 script:
   - cd src
   - ./linuxCompile.sh
