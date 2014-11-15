@@ -1,4 +1,7 @@
 
+install:
+  - apt-get install cabal-install
+
 script:
   - cd src
   - ./linuxCompile.sh
