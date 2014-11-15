@@ -1,6 +1,6 @@
 before_install:
   - sudo apt-get update -qq
-  - sudo apt-get install -qq libzip-dev
+  - sudo apt-get install -qq libzip-dev libopenal-dev
 
 language: haskell
 
