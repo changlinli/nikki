@@ -1,6 +1,6 @@
-
-install:
-  - apt-get install cabal-install
+before_install:
+  - sudo apt-get update -qq
+  - sudo apt-get install -qq cabal-install
 
 script:
   - cd src
