@@ -8,4 +8,6 @@ install: true
 
 script:
   - cd src
+  - cabal sandbox init
+  - cabal install sfml-audio --extra-include-dirs=/usr/include/AL/
   - ./linuxCompile.sh
