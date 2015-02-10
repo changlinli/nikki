@@ -1,8 +1,11 @@
+language: haskell
+
+ghc:
+  - 7.6
+
 before_install:
   - sudo apt-get update -qq
-  - sudo apt-get install -qq libzip-dev libopenal-dev
-
-language: haskell
+  - sudo apt-get install -qq libzip-dev libopenal-dev libsndfile1-dev
 
 install: true
 
